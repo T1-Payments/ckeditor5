@@ -83,6 +83,7 @@ DecoupledEditor.builtinPlugins = [
 
 // Editor configuration.
 DecoupledEditor.defaultConfig = {
+	allowedContent: true,
 	toolbar: {
 		items: [
 			'heading',
