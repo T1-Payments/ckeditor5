@@ -45,6 +45,7 @@ export default class DecoupledEditor extends DecoupledEditorBase {}
 
 // Plugins to include in the build.
 DecoupledEditor.builtinPlugins = [
+	Mention,
 	Essentials,
 	Alignment,
 	FontSize,
@@ -77,13 +78,11 @@ DecoupledEditor.builtinPlugins = [
 	PasteFromOffice,
 	Table,
 	TableToolbar,
-	TextTransformation,
-	Mention
+	TextTransformation
 ];
 
 // Editor configuration.
 DecoupledEditor.defaultConfig = {
-	allowedContent: true,
 	toolbar: {
 		items: [
 			'heading',
